@@ -1,0 +1,85 @@
+HISTORIA- LANÇADO EM SET 1995 
+criado por brendan eich
+
+ECMASCRIPT- especificação da linguagem 
+TC39 CUIDA DO PROJETO RESPOSAVEL PELA ATUALIZAÇÃO 
+DA LINGUAGEM
+
+fluxo de proposta
+-stage0:strawman
+-stage1: proposal
+-stage2: draft
+stage3: candidate
+stage:4 finished
+
+ES2018
+operadores rest/spread
+iteração assincrona
+promise.prototype.finally
+
+Linguagem interpretada
+linguagem de tipagem fraca e dinamica não precisa tipo da variavel
+typescript super sete
+
+funções de primeira classe e ordem maior
+
+currying transforma em uma furnção
+
+hoisting levanta ou suspender algo dois tipo variaveis
+funções elevada ao topo como todo
+
+imutabilidade- variaveis não muda
+
+objeto ou array e passado por referencia
+
+TIPOS E VARIAVEIS-
+var-
+let-
+const-
+
+OPERADORES-
+
+ESTRUTURAS CONDICIONAIS E REPETIÇÃO-
+
+
+
+TIPOS DE VARIAVEIS-
+
+6 TIPOS
+
+string representar texto
+number numero
+boolean tru false
+null
+undefined variavel existe mais não setada
+symbol criar valores unico
+
+
+object
+function
+array
+
+
+STRING
+textsize .length -retorna o tamanho da string
+
+splittedtext- retorna um array quebrando a string
+por um delimitador
+
+replacedtext busca por um valor e substitui por putro
+
+lastchar- slice- retorna a fatia de um valor
+
+secondtoend - slide
+
+twocharsbeforefirstpos- retorna n caracteres a parti
+de uma posição
+
+NUMBER
+
+
+"Science with religion is lame, religion without science is blind."
+
+for(let filme of filmes)
+
+filosofo = "Hipó" + filosofo.substr(2, 7)
