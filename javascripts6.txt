@@ -77,9 +77,100 @@ de uma posição
 
 NUMBER
 
+ORIENTAÇÃO A OBJETOS
 
-"Science with religion is lame, religion without science is blind."
+HERANÇA- baseada em prototipos
+prototype- armazena as definições do nosso objeto
+__proto__
+constructor 
 
-for(let filme of filmes)
 
-filosofo = "Hipó" + filosofo.substr(2, 7)
+Design patterns
+
+definição
+
+padroes de projetos são soluçoes generalista para problemas
+recorrentes durante o desenvolvimento de um software.
+
+Apattern language
+1978 - christopher alexandre, sara ishikawa e murray silverstein
+253 tipos de problema/desafios de projetos
+
+FORMATO DE UM PATTERN
+nome
+exemplo
+contexto
+problema
+solução
+
+1987- using pattern languages for object-oriented programs
+kent beck e ward cunningham
+5 padroes de projetos
+
+livro de design patterns
+1994
+gang of four(gof
+erich gamma richard helm, ralph jonson e john vlissides)
+
+TIPOS
+CRIAÇÃO- são a quele que abstraem e ou adiamo processo
+criação dos objetos.
+
+padroes de criação
+abstract factory
+builder
+factory
+method
+prototype
+singleton
+
+ESTRUTURA- se preocupam com forma como classes e obejetos
+são composto apara formar estrutura maiores
+
+PADROES ESTRUTURAIS
+adapter
+bridge
+composite
+decorator
+facade
+business delegate
+flyweighet
+proxy
+
+
+COMPORTAMENTAIS- se concentram nos algoritmo e atribuição
+de responsabilidade  entre os objetos
+
+padroes comportamentais
+chain of responsibility
+command
+interpreter
+iterator
+mediator
+observer
+state
+strategy
+template method
+visitor
+
+
+patterns mais utilizados
+factory- todas as funções que retornam um objeto, sem a necessidade de
+chama-las com o new, são consideradas funções.
+
+singleton- o objetivo desse pattern criar uma unica instancia
+de uma função construtora e retorna-la todas vez em que for necessario
+utiliza-la.
+
+
+decorator- uma função decorator recebe uma outra função
+como parametro e estende o seu comportamento sem modifica-la explicitamente
+
+observer- é um pattern muito popular em eplicaçoes javascript.
+a instancia(subscriber)mantem uma coleção de objetos(observes)
+e notifica todos eles quando ocorrem mudanças no estado.
+
+module- que possibilita organizarmos melhor o nisso codigo
+sem a necessidade de expor variaveis globais
+
+
